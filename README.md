@@ -17,7 +17,7 @@ docker-compose up
 ```
 * Once the container are up, Open the application throw: 
 ```
-http://localhost:8000/docs
+http://localhost:8008/docs
 
 ```
 
@@ -32,15 +32,8 @@ Then to stat tests, run the command:
 ```
 python -m pytest
 ```
-
-You can also start the application using :
-```
-python main.py
-```
-
-
 ## Project Structure
-
+```
 scraper
 ├── database
 │   ├── __init.py__
@@ -60,8 +53,10 @@ scraper
 │
 ├── main.py
 
-
+```
 ## Packages  
 
 * The ```database``` package responsible for the database connection and persistance .
 * The ```service``` package contains the fastAPI app and the scraping script.
+
+
