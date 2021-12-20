@@ -1,0 +1,15 @@
+# Ignore everything
+**
+
+# ... except for dependencies and source
+!Pipfile
+!Pipfile.lock
+!database/
+!service/
+!test/
+!main.py
+!__init__.py
+
+
+
+
